@@ -1,0 +1,247 @@
+ body {
+  /*overflow-x: hidden;*/
+  background-color: black;
+  font-family: "Teko",sans-serif;
+}
+
+
+
+
+header.masthead {
+  text-align: left;
+  color: white;
+  background-image: url("../assets/img/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+header.masthead .intro-text {
+  color:#00B2EE;
+  padding-top: 150px;
+  padding-bottom: 100px;
+   
+}
+
+.intro-heading{
+  color: rgb(245, 242, 248);
+}
+
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 18px;
+  line-height: 15px;
+  margin-bottom: 5px;
+  font-family:"Teko",sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 2.3em;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 5px;
+  font-family: "Teko",sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    height: 100vh;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-family: "Teko",sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size:3.5em;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 5px;
+    font-family:"Teko",sans-serif;
+  }
+}
+
+
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #00B2EE;
+  font-family: "Teko",sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: #00B2EE;
+  font-family: "Teko",sans-serif;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #00B2EE;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: bold;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #00B2EE;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2em;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 2em;
+    padding: 12px 0;
+  }
+}
+
+
+.page-section {
+  padding: 80px 0;
+  background-color: black;
+}
+
+#portfolio{
+  text-align: center;
+}
+
+.section-heading{
+  color: white;
+  font-weight: 900;
+}
+
+.service-heading{
+  color: white;
+}
+
+#page-top{
+  font-weight: bold;
+}
+
+.ci{
+  color:#00B2EE;
+}
+
+.portfolio-item img{
+    height: 200px;
+}
+
+.card-body{
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.heading h2,span,.lead{
+  color: white;
+}
+.cop{
+  color: white;
+}
+
+.rodape{
+  background-color: rgb(14, 13, 13);
+}
+
+.btn-social{
+  align-items: center;
+  display: inline-flex;
+  border-radius: 100%;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+
+}
+
+.aling-contact{
+  justify-content: center;
+
+}
+
+h4{
+  color: white;
+}
+
+
+.btn-social:hover{
+  background-color: #00B2EE;
+  color: white;
+}
+.contact-email{
+  color: rgb(216, 198, 198);
+}
+
+.my-4{
+  background-color: #00B2EE;
+  height: 2px;
+  width: 60px;
+}
+
+#mainNav .navbar-nav .home .nav-link.active {
+  color: white;
+}
+
+#mainNav .navbar-nav .home .nav-link:hover {
+  color:#00B2EE ;
+}
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: rgb(79, 163, 196);
+  color: white;
+  display: none;
+}
+.back-to-top:hover{
+  background-color: #00B2EE;
+  color: rgb(223, 215, 215);
+}
+
+.description, .lead, .mb-5{
+  color: rgb(189, 176, 176);
+}
+
+.portfolio-item{
+  padding-bottom: 10px;
+}
+
