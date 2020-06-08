@@ -44,7 +44,6 @@
 
 $(document).ready(function(){
 	$(window).scroll(function () {
-    console.log($(this).scrollTop())
 			if ($(this).scrollTop() > 50) {
         $('#back-to-top').css('display','inline');
         $('#back-to-top').fadeIn();

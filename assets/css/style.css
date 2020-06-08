@@ -1,19 +1,23 @@
+ html{
+   height: 100%;
+ }
+
  body {
   /*overflow-x: hidden;*/
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%);
   font-family: "Teko",sans-serif;
+  height: 100%;
 }
 
 header.masthead {
   text-align: left;
   color: rgb(189, 176, 176);
-  /*background-image: url("../assets/img/back.jpg");*/
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url("../assets/img/back.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url("../img/back.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   display: flex;
+  min-height: 100%;
   flex-direction: column;
   justify-content: center;
   
@@ -240,6 +244,7 @@ h4{
 .back-to-top:hover{
   background-color: #00B2EE;
   color: rgb(223, 215, 215);
+  box-shadow: none;
 }
 
 .description, .lead, .mb-5{
@@ -276,4 +281,14 @@ h4{
 
 .dev-icons .list-inline-item i:hover {
   color: #00B2EE;
+}
+
+.mx-1:hover{
+  color:white;
+  
+}
+
+.mx-1:active{
+  box-shadow: none;
+  border: none;
 }
